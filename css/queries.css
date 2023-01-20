@@ -1,0 +1,470 @@
+@media screen and (max-width: 77em) {
+  .icon {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+    font-weight: 400;
+    line-height: 1.05;
+    color: #0e1133;
+    margin-bottom: 3.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+    color: #0e1133;
+    font-weight: 600;
+  }
+
+  .heading-third {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    max-width: 97rem;
+  }
+
+  .feature-thumb-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 6.4rem;
+  }
+}
+
+@media screen and (max-width: 68em) {
+  .container {
+    max-width: 85rem;
+  }
+
+  .header {
+    gap: 6.4rem;
+  }
+
+  .nav-btn a:link,
+  .nav-btn:visited {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.2rem;
+  }
+  .features-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .work-cards {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .work-card {
+    padding: 3.2rem 9.6rem;
+  }
+
+  .work-section-hero {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .imgs-slide {
+    grid-template-columns: 1fr;
+  }
+
+  .imgs-slide img:last-child {
+    width: 50%;
+  }
+
+  .price-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-content {
+    flex-direction: column;
+  }
+
+  .testimonial-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-img img {
+    width: 25%;
+  }
+
+  .download-color {
+    padding: 1rem 2rem;
+  }
+
+  .sm-width .store-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .sponser-hero {
+    width: 45rem;
+  }
+
+  .sponser-logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sponser-logo img {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .sponser-logo img:last-child {
+    grid-column: -3/-2;
+    grid-row: 4/5;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-deatils {
+    flex-direction: column;
+    /* align-items: flex-start; */
+    gap: 1rem;
+  }
+  .social-media {
+    justify-content: center;
+  }
+  .company-deatil {
+    text-align: center;
+  }
+
+  .support-deatil {
+    text-align: center;
+  }
+
+  .footer-download {
+  }
+  .download-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .download-container div:last-child {
+    text-align: center;
+  }
+
+  .crimson {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 60em) {
+  .container {
+    max-width: 80rem;
+  }
+
+  .icon {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 1.05;
+    color: #0e1133;
+    margin-bottom: 3.2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #0e1133;
+    font-weight: 600;
+  }
+
+  .heading-third {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .header {
+    justify-content: space-between;
+    gap: 4.8rem;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline-block;
+    margin-left: 3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .hero {
+    /* grid-template-columns: 1fr; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-box {
+    width: 100%;
+  }
+
+  .imgs img {
+    height: 4.8rem;
+    width: 4.8rem;
+  }
+  .hero-img {
+    width: 40%;
+    margin-left: auto;
+  }
+
+  .features-hero .heading-secondary {
+    /* justify-content: center; */
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .more-deatils {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .features-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card-deatils {
+    text-align: center;
+  }
+
+  .card-deatils span {
+    margin: 2rem auto;
+  }
+
+  .about-text-box {
+    padding-top: 0;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .about-thumb-hero {
+    height: 94vh;
+    /* text-align: center; */
+    justify-content: center;
+  }
+
+  .about-more-info {
+    flex-direction: column;
+  }
+
+  /* ====================== */
+
+  .more-deatils p {
+    font-size: 1.4rem;
+  }
+
+  .btn-link:link,
+  .btn:link:visited {
+    font-size: 1.4rem;
+  }
+
+  .card-deatils-text {
+    font-size: 1.2rem;
+  }
+
+  .about-text-box p {
+    font-size: 1.2rem;
+  }
+
+  .paragraph {
+    font-size: 1.2rem;
+  }
+
+  .content-hero .heading-third {
+    font-size: 2rem;
+  }
+
+  .content-hero p {
+    font-size: 1.2rem;
+  }
+
+  .slide-text .heading-third {
+    font-size: 2rem;
+  }
+
+  .slide-title p {
+    font-size: 1.2rem;
+  }
+
+  .work-btn {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .btn-get {
+    /* margin-top: 2rem; */
+    /* padding: 1rem 2rem; */
+  }
+  .sm-text-container h4 {
+    font-size: 1.4rem;
+  }
+
+  .sm-text-container p {
+    font-size: 1.2rem;
+  }
+
+  .price-per-month span {
+    font-size: 3rem;
+  }
+
+  .card-paragraph {
+    font-size: 1.2rem;
+  }
+
+  .icon-price {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .para {
+    font-size: 1.4rem;
+  }
+
+  .testimonial-paragraph {
+    font-size: 1.6rem;
+  }
+
+  .testimonial-footer h4 {
+    font-size: 1.6rem;
+  }
+
+  .sponser-text p {
+    font-size: 1.4rem;
+  }
+  /* ====================== */
+}
+
+@media screen and (max-width: 51em) {
+  .container {
+    max-width: 70rem;
+  }
+}
+
+@media screen and (max-width: 45em) {
+  .container {
+    max-width: 60rem;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .container {
+    max-width: 50rem;
+  }
+}
+
+@media screen and (max-width: 34em) {
+  .container {
+    max-width: 40rem;
+  }
+}
+@media screen and (max-width: 28em) {
+  .container {
+    max-width: 32rem;
+  }
+
+  /* ====================== */
+
+  .more-deatils p {
+    font-size: 1.2rem;
+  }
+
+  .btn-link:link,
+  .btn:link:visited {
+    font-size: 1.2rem;
+  }
+
+  .card-deatils-text {
+    font-size: 1rem;
+  }
+
+  .about-text-box p {
+    font-size: 1rem;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+  }
+
+  .content-hero .heading-third {
+    font-size: 1.8rem;
+  }
+
+  .content-hero p {
+    font-size: 1rem;
+  }
+
+  .slide-text .heading-third {
+    font-size: 1.6rem;
+  }
+
+  .slide-title p {
+    font-size: 1rem;
+  }
+
+  .work-btn {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .btn-get {
+    /* margin-top: 2rem; */
+    /* padding: 1rem 2rem; */
+  }
+  .sm-text-container h4 {
+    font-size: 1.2rem;
+  }
+
+  .sm-text-container p {
+    font-size: 1rem;
+  }
+
+  .price-per-month span {
+    font-size: 2.4rem;
+  }
+
+  .card-paragraph {
+    font-size: 1rem;
+  }
+
+  .icon-price {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .para {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-paragraph {
+    font-size: 1.4rem;
+  }
+
+  .testimonial-footer h4 {
+    font-size: 1.4rem;
+  }
+
+  .sponser-text p {
+    font-size: 1.2rem;
+  }
+  /* ====================== */
+}
